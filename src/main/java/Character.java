@@ -1,5 +1,8 @@
 import java.io.Serializable;
 
+/**
+ * Model for the readFromMongoDBWithSQL in SparkConnector class.
+ */
 public final class Character implements Serializable {
     private String name;
     private Integer age;
